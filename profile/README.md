@@ -130,6 +130,63 @@ As features estão organizadas por **nível de prioridade e impacto no core do s
 | **Conversation** | • Uso de cores semânticas (verde/vermelho) <br> • Animações de resposta <br> • Destaque visual de estados |
 | **Confirmation** | • [ ] Feedback imediato ao responder <br> • [ ] Cores representam corretamente o estado <br> • [ ] Interface reforça ações do usuário |
 
+## Backlog — Sistema de Adivinhação (Alta Prioridade)
+
+### 1. Sorteio do número secreto
+
+| **Elemento**     | **Descrição** |
+|-----------------|--------------|
+| **Card**        | Como sistema, quero gerar um número aleatório para que o jogador tenha um desafio de adivinhação durante a partida. |
+| **Conversation** | • Geração de número pseudo-aleatório <br> • Intervalo definido (ex: 1 a 10 ou 1 a 100) <br> • Número oculto para o jogador |
+| **Confirmation** | • [ ] Número é gerado a cada nova rodada <br> • [ ] Valor está dentro do intervalo definido <br> • [ ] Número não é exibido ao jogador |
+
+### 2. Loop de adivinhação
+
+| **Elemento**     | **Descrição** |
+|-----------------|--------------|
+| **Card**        | Como jogador, quero tentar adivinhar o número até acertar para progredir no jogo. |
+| **Conversation** | • Sistema deve permitir múltiplas tentativas <br> • Loop continua até acerto ou condição de parada <br> • Integração com fluxo principal do jogo |
+| **Confirmation** | • [ ] Jogador pode inserir múltiplas tentativas <br> • [ ] Loop continua enquanto não houver acerto <br> • [ ] Loop é encerrado corretamente ao acertar |
+
+
+### 3. Validação da entrada
+
+| **Elemento**     | **Descrição** |
+|-----------------|--------------|
+| **Card**        | Como sistema, quero validar a entrada do jogador para evitar erros e garantir funcionamento correto. |
+| **Conversation** | • Verificar se entrada é numérica <br> • Validar se está dentro do intervalo permitido <br> • Tratar entradas inválidas |
+| **Confirmation** | • [ ] Entrada inválida é identificada <br> • [ ] Sistema impede valores fora do intervalo <br> • [ ] Mensagem de erro é exibida quando necessário |
+
+## Backlog — Sistema de Adivinhação (Média Prioridade)
+
+### 4. Feedback: “Muito baixo” 
+
+| **Elemento**     | **Descrição** |
+|-----------------|--------------|
+| **Card**        | Como jogador, quero saber quando meu palpite está abaixo do valor correto para ajustar minha estratégia. |
+| **Conversation** | • Comparação entre palpite e número secreto <br> • Feedback textual exibido na interface |
+| **Confirmation** | • [ ] Sistema identifica quando valor é menor <br> • [ ] Mensagem “Muito baixo” é exibida corretamente |
+
+
+### 5. Feedback: “Muito alto”
+
+| **Elemento**     | **Descrição** |
+|-----------------|--------------|
+| **Card**        | Como jogador, quero saber quando meu palpite está acima do valor correto para ajustar minha estratégia. |
+| **Conversation** | • Comparação entre palpite e número secreto <br> • Feedback textual exibido na interface |
+| **Confirmation** | • [ ] Sistema identifica quando valor é maior <br> • [ ] Mensagem “Muito alto” é exibida corretamente |
+
+## Backlog — Sistema de Adivinhação (Baixa Prioridade)
+
+### 6. Feedback: “Acertou”
+
+| **Elemento**     | **Descrição** |
+|-----------------|--------------|
+| **Card**        | Como jogador, quero ser informado quando acertar o número para receber recompensa no jogo. |
+| **Conversation** | • Comparação direta entre palpite e número secreto <br> • Integração com sistema de pontuação |
+| **Confirmation** | • [ ] Sistema identifica acerto corretamente <br> • [ ] Mensagem “Acertou” é exibida <br> • [ ] Pontuação ou bônus é aplicado |
+
+
 <div align="center">
   <h2>Protótipo Inicial (Baixa Fidelidade)</h2>
 </div>
