@@ -13,6 +13,7 @@
 [![GitHub latest commit](https://badgen.net/github/last-commit/TE-C-TRIS/TECTRIS)](https://badgen.net/github/last-commit/TE-C-TRIS/TECTRIS)
 [![GitHub issues](https://badgen.net/github/issues/TE-C-TRIS/TECTRIS)](https://GitHub.com/TE-C-TRIS/TECTRIS/issues/)
 <br>
+
 [![GitHub Org's stars](https://img.shields.io/github/stars/TE-C-TRIS/TECTRIS.svg?style=social&label=Stars)](https://github.com/TE-C-TRIS/TECTRIS/stargazers)
 [![GitHub Org's forks](https://img.shields.io/github/forks/TE-C-TRIS/TECTRIS.svg?style=social&label=Fork)](https://github.com/TE-C-TRIS/TECTRIS/fork)
 [![GitHub Org's followers](https://img.shields.io/github/followers/TE-C-TRIS.svg?style=social&label=Follow)](https://github.com/TE-C-TRIS)
