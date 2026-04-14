@@ -8,6 +8,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/TE-C-TRIS/LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/tectris/tectris/actions)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
+[![GitHub commits](https://badgen.net/github/commits/TE-C-TRIS/TECTRIS)](https://github.com/TE-C-TRIS/TECTRIS/commits/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/TE-C-TRIS/TECTRIS)](https://badgen.net/github/last-commit/TE-C-TRIS/TECTRIS)
+[![GitHub issues](https://badgen.net/github/issues/TE-C-TRIS/TECTRIS)](https://GitHub.com/TE-C-TRIS/TECTRIS/issues/)
+<br>
+[![GitHub Org's stars](https://img.shields.io/github/stars/TE-C-TRIS/TECTRIS.svg?style=social&label=Stars)](https://github.com/TE-C-TRIS/TECTRIS/stargazers)
+[![GitHub Org's forks](https://img.shields.io/github/forks/TE-C-TRIS/TECTRIS.svg?style=social&label=Fork)](https://github.com/TE-C-TRIS/TECTRIS/fork)
+[![GitHub Org's followers](https://img.shields.io/github/followers/TE-C-TRIS.svg?style=social&label=Follow)](https://github.com/TE-C-TRIS)
+
+<br>
+
+[![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/kRNpjNgWIFwauorghAjyIY/Tectris-Design-System---Primeira-Vers%C3%A3o?node-id=64-3864&p=f&t=RYiLQKL7cvNZuk9i-0)
+[![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)](https://trello.com/invite/b/69cadb5e6451c7e81081f2af/ATTI17b970f7bb190cbabe4d257b4311c5dfC761625F/projeto-integrado)
 </div>
 
 <div align="center">
@@ -19,6 +32,13 @@ O Tectris é um jogo educacional desenvolvido em C que combina a mecânica clás
 A proposta do projeto é transformar o aprendizado de lógica em uma experiência prática, dinâmica e competitiva, estimulando o raciocínio lógico, a tomada de decisões rápidas e o engajamento do usuário.
 
 Diferente de métodos tradicionais, o Tectris integra o conhecimento à gameplay, permitindo que o jogador aprenda enquanto joga, tornando o processo mais intuitivo e eficaz.
+
+<div align="center">
+  <h2>Visão Geral do Quadro do Projeto</h2>
+  <img src="https://i.imgur.com/MfuGcIR.png" alt="Tectris Logo" width="600">
+  <h2>Visão do Padrão de Backlogs</h2>
+  <img src="https://i.imgur.com/2GZPThl.png" alt="Tectris Gameplay" width="300">
+</div>
 
 <div align="center">
   <h2>Features</h2>
